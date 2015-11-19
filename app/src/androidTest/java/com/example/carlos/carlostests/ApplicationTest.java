@@ -1,4 +1,4 @@
-package com.example.carlos.evapp2;
+package com.example.carlos.carlostests;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

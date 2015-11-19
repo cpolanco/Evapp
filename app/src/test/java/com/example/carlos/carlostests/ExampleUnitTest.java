@@ -1,4 +1,4 @@
-package com.example.carlos.evapp2;
+package com.example.carlos.carlostests;
 
 import org.junit.Test;
 

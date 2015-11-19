@@ -11,6 +11,30 @@
     <TextView
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Age" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:text="Username" />
 
     <EditText
@@ -19,6 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         />
+
 
     <TextView
         android:layout_height="wrap_content"
@@ -33,19 +58,9 @@
         android:layout_marginBottom="10dp"
         />
     <Button
-        android:id="@+id/bLogin"
-        android:text="Login"
-        android:layout_marginBottom="10dp"
+        android:id="@+id/bRegister"
+        android:text="Register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/tvRegisterLink"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="Register here"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal"
-        />
 
 </LinearLayout>
